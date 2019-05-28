@@ -1,0 +1,6 @@
+<persistence>
+   <persistence-unit name="samplesdb">
+      <provider>org.hibernate.ejb.HibernatePersistence</provider>
+      <jta-data-source>java:jboss/datasources/mysql</jta-data-source>
+   </persistence-unit>
+</persistence>
